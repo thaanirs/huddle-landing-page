@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+
+*{
+    box-sizing: border-box;
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+li{
+    list-style-type: none;
+}
+.container{
+    padding: 0 20px;
+    margin: 0 auto;
+    width: 1200px;
+    max-width: 100%;
+}
+
+
+.btn{
+    background-color:  hsl(322, 100%, 66%);
+    border-radius: 30px;
+    color: white;
+    padding: 10px 30px;
+    border: none;
+}
+
+.navbar-btn{
+    background-color: white;
+    color: black;
+}
+.navbar,.first-sec{
+    background-color: hsl(193, 100%, 96%);
+}
+
+
+section .flex p,section .flex h1{
+    margin: 0 50px;
+}
+
+.show-case{
+    margin: 100px 0px;
+}
+
+
+.your-user img,
+.grow-tog img,
+.flow-convo img,
+.first-sec img{
+    width: 100%;
+}
+.flow-convo,.grow-tog,.your-user{
+    
+    box-shadow: 0px 0px 10px grey;
+    border-radius: 10px;
+    margin: 50px 20px 20px 20px ;
+    padding: 20px 10px;
+}
+
+.cent-inbw-ftr-sec{
+    box-shadow: 0px 0px 10px grey;
+
+    text-align: center;
+    width: 50%;
+    
+    border-radius: 10px;
+    position: relative;
+    top: 150px;
+    background-color: white;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#a1{
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: blueviolet;
+}
+
+.footer{
+    background-color:hsl(192, 100%, 9%);
+}
+.footer a{
+    color: hsl(208, 11%, 55%);
+}
+.footer .flex li{
+    margin: 10px 0px;
+}
+#cop-rt{
+    color: hsl(208, 11%, 55%);
+    text-align: right;
+    padding-bottom: 30px;
+}
+
+.log-li{
+    display: flex;
+    flex-direction: column;
+}
+
+body{
+    
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0%;
+}
+a{
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1,h6{
+    font-family: 'Poppins', sans-serif;
+}
+
+@media( max-width:800px){
+    
+    *{
+        text-align: center;
+    }
+
+    .flex{flex-direction: column;}
+    .flow-convo{flex-direction: column-reverse;}
+    .navbar .flex{flex-direction: row;}
+    .footer .flex{text-align: left;}
+
+    .first-sec img,.show-case img{margin: 20px 0px;}
+
+
+    
+
+}
