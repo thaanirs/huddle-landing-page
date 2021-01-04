@@ -78,7 +78,6 @@ section .flex p,section .flex h1{
 }
 #a1{
     display: flex;
-    flex-direction: column-reverse;
     background-color: blueviolet;
 }
 
@@ -119,18 +118,18 @@ h1,h6{
 
 @media( max-width:800px){
     
-    *{
-        text-align: center;
-    }
-
+    body{text-align: center;}
+    .navbar{padding-top: 10px;}
     .flex{flex-direction: column;}
     .flow-convo{flex-direction: column-reverse;}
     .navbar .flex{flex-direction: row;}
-    .footer .flex{text-align: left;}
+    
 
     .first-sec img,.show-case img{margin: 20px 0px;}
-
-
     
+
+    #cop-rt{
+        text-align: center;
+    }
 
 }
